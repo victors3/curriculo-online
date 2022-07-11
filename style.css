@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+body{
+    width: 100%;
+    color:white;
+    text-align: center;
+    min-height: 100vh;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.container{
+    width: 50%;
+    overflow-y: scroll;
+    height: 90vh;
+    padding: 15px 2%;
+    box-shadow: 0 0 5px white;
+    background-color: rgb(51, 47, 47);
+}
+
+.container::-webkit-scrollbar{
+    width: 14px;
+    border: 1px solid white;
+}
+
+.container::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 6px;
+    padding: 0 0.3em;
+    top: 0 0.7em;
+}
+
+.hr_dados01{
+    border-top: medium dashed #069;
+    height: 5px;
+    overflow:visible;
+    padding: 0;
+    text-align: center;
+}
+
+h1{ 
+
+    font-size: 30px;
+    font-family: 'Nunito','font-family' 'Nunito', sans-serif;
+    margin-bottom: 30px;
+}
+ 
+
+span{
+    color:black;
+}
+
+img{
+    width: 200px;
+    height: 250px;
+    box-shadow: 0 0 3px white;
+    border-radius: 10px;
+
+}
+
+.i .fa-linkedin-square{
+    font-size:35px;
+}
+
+.fa-github-square{
+    font-size: 35px;
+}
+
+.fa-youtube-square{
+    font-size: 35px;
+}
+
+.fa-twitter-square{
+    font-size: 35px;
+}
